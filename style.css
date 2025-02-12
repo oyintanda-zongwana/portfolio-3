@@ -744,6 +744,25 @@ xclip
     padding: 10px 30px;
 }
 
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    font-size: 3.5em;
+    color: white;
+}
+
+.link:hover {
+    transition: 0.2;
+    color: #fd6e0a;
+    -webkit-transition: 0.2;
+    -moz-transition: 0.2;
+    -ms-transition: 0.2;
+    -o-transition: 0.2;
+}
+
 .da-thumbs {
     list-style: none;
     position: relative;
